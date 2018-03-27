@@ -12,13 +12,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/aws-lambda": "0.0.33",
-    "@types/node": "^9.4.7",
+    "@types/aws-lambda": "0.0.34",
+    "@types/node": "^8.10.0",
+    "ts-node": "^5.0.1",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.10.0",
-    "typescript": "^2.7.2"
+    "typescript": "^2.8.1"
   },
-  "dependencies": {
-    "ts-node": "^5.0.1"
-  }
+  "dependencies": {}
 }
