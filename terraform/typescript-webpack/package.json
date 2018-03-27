@@ -1,0 +1,28 @@
+{
+  "name": "typescript_test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack-cli --mode=production",
+    "test": "",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.34",
+    "@types/node": "^8.10.0",
+    "cache-loader": "^1.2.2",
+    "fork-ts-checker-webpack-plugin": "^0.4.1",
+    "ts-loader": "^4.1.0",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.10.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.3.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {}
+}

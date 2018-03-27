@@ -1,3 +1,7 @@
 .terraform/
 bin/
 obj/
+node_modules/
+*.tfstate
+*.backup
+terraform/typescript-webpack/.cache-loader/*
